@@ -1,0 +1,28 @@
+/* Custom beautiful scrollbar for sidebar */
+.sidebar-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-track {
+    background: #1e293b;
+    /* Tailwind slate-800 */
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #059669;
+    /* Tailwind emerald-600 */
+    border-radius: 9999px;
+    border: 2px solid #1e293b;
+    /* same as track */
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #34d399;
+    /* Tailwind emerald-400 */
+}
+
+/* Optional: Firefox scrollbar styling */
+.sidebar-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #059669 #1e293b;
+}

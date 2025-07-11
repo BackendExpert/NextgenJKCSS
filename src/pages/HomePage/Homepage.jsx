@@ -21,7 +21,7 @@ export default function Home() {
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a
-                            href="/GetStarted"
+                            href="/Docs/Introduction"
                             className="bg-yellow-400 text-black font-bold px-8 py-3 rounded-full hover:bg-yellow-500 transition"
                         >
                             Get Started

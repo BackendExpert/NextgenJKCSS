@@ -5,6 +5,7 @@ import Homepage from './pages/HomePage/Homepage'
 import Navbar from './components/Nav/Navbar'
 import GetStarted from './pages/GetStart/GetStarted'
 import Footer from './components/Footer/Footer'
+import Intridoction from './pages/GetStartPage/Intridoction'
 
 function AppContent() {
     const location = useLocation()
@@ -16,18 +17,6 @@ function AppContent() {
             setShowNavbar(false)
             return
         }
-
-        const handleScroll = () => {
-            if (window.scrollY > lastScrollY && window.scrollY > 50) {
-                setShowNavbar(false)
-            } else {
-                setShowNavbar(true)
-            }
-            setLastScrollY(window.scrollY)
-        }
-
-        window.addEventListener('scroll', handleScroll)
-        return () => window.removeEventListener('scroll', handleScroll)
     }, [lastScrollY, location.pathname])
 
     const showFooter = location.pathname !== '/'
@@ -37,9 +26,10 @@ function AppContent() {
             {showNavbar && <Navbar />}
             <Routes>
                 <Route path='/' element={<Homepage />} />
-                <Route path='/GetStarted' element={<GetStarted />} />
+                <Route path='/Docs/' element={<GetStarted />}>
+                    <Route path='Introduction' element={<Intridoction />} />
+                </Route>
             </Routes>
-            {showFooter && <Footer />}
         </>
     )
 }
