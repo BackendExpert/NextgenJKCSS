@@ -4,17 +4,17 @@ import { FaGithub } from 'react-icons/fa6';
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between px-6 md:px-12 py-4 bg-black bg-opacity-80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-800">
+        <nav className="flex items-center justify-between px-6 md:px-12 py-4 bg-white bg-opacity-80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
             {/* Left: Logo */}
             <a href="/" className="flex items-center space-x-3">
                 <img src={jkcsslogo} alt="JKCSS Logo" className="h-8 w-auto" />
-                <h1 className="text-xl font-extrabold text-white select-none">
-                    JKCSS <span className="font-normal text-gray-400">Framework</span>
+                <h1 className="text-xl font-extrabold text-gray-600 select-none">
+                    JKCSS <span className="font-normal text-gray-500">Framework</span>
                 </h1>
             </a>
 
             {/* Middle: Nav Links */}
-            <div className="hidden md:flex space-x-8 text-gray-300 text-sm font-medium">
+            <div className="hidden md:flex space-x-8 text-gray-500 text-sm font-medium">
                 <a
                     href="#docs"
                     className="hover:text-yellow-400 transition-colors duration-200"

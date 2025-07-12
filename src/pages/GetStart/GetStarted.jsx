@@ -7,7 +7,7 @@ const GetStarted = () => {
     return (
         <div className="flex w-full h-screen overflow-hidden bg-white">
             {/* Sidebar — with custom scrollbar */}
-            <aside className="xl:w-[20%] w-[75%] bg-slate-900 border-r h-full overflow-y-auto sidebar-scrollbar">
+            <aside className="xl:w-[20%] w-[75%] bg-slate-900 border-r border-gray-200 h-full overflow-y-auto sidebar-scrollbar">
                 <Menu />
             </aside>
 

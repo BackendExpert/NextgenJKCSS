@@ -3,11 +3,11 @@ import { Github, Facebook, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-gray-400 px-8 md:px-32 py-16">
+        <footer className="text-gray-600 px-8 md:px-20 py-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Column 1: Brand */}
                 <div>
-                    <h2 className="text-xl font-bold text-white mb-4">JKCSS</h2>
+                    <h2 className="text-xl font-bold text-gray-700 mb-4">JKCSS</h2>
                     <p className="text-sm">
                         South Asia’s first next-gen CSS framework.
                         Build faster, dream harder.
