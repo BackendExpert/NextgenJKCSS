@@ -28,6 +28,12 @@ const Navbar = () => {
                     Blog
                 </a>
                 <a
+                    href="#blog"
+                    className="hover:text-yellow-400 transition-colors duration-200"
+                >
+                    Projects
+                </a>
+                <a
                     href="#community"
                     className="hover:text-yellow-400 transition-colors duration-200"
                 >

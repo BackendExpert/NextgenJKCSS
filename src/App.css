@@ -9,20 +9,20 @@
 }
 
 .sidebar-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #059669;
+    background-color: #797979;
     /* Tailwind emerald-600 */
     border-radius: 9999px;
-    border: 2px solid #1e293b;
+    border: 2px solid #c2c2c2;
     /* same as track */
 }
 
 .sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
-    background-color: #34d399;
+    background-color: #797979;
     /* Tailwind emerald-400 */
 }
 
 /* Optional: Firefox scrollbar styling */
 .sidebar-scrollbar {
     scrollbar-width: thin;
-    scrollbar-color: #059669 #1e293b;
+    scrollbar-color: #797979 #c2c2c2;
 }

@@ -1,101 +1,90 @@
-import {
+import { 
     FaBook, FaDownload, FaCogs, FaColumns, FaArrowsAlt, FaAlignJustify, FaThLarge,
-    FaExpandArrowsAlt, FaCompressArrowsAlt, FaTextHeight, FaFont, FaImage, FaFillDrip,
-    FaBorderStyle, FaPalette, FaRegSquare, FaRegClone, FaFilter, FaTable, FaMagic,
-    FaSyncAlt, FaRandom, FaEye, FaCube, FaHandPointer, FaAdjust
-} from "react-icons/fa6"
+    FaExpand, FaCompress, FaFont, FaImage, FaFillDrip, FaBorderStyle, FaPalette,
+    FaRegSquare, FaRegClone, FaFilter, FaTable, FaMagic, FaSync, FaEye, FaCube,
+    FaHandPointer, FaRandom
+} from "react-icons/fa"
+import { MdTextFields, MdOutlineGradient, MdBlurOn, MdBrightness6 } from "react-icons/md"
+import { HiOutlineColorSwatch } from "react-icons/hi"
+import { BsTextareaResize } from "react-icons/bs"
+import { RiFontSize2 } from "react-icons/ri"
 
-// Main menus
 const mainMenu = [
     { name: "Documentation", icon: <FaBook />, link: "#" },
 ]
 
-// Get started
 const getStarted = [
-    { name: "Installation", icon: <FaDownload />, link: "#" },
+    { name: "Installation", icon: <FaDownload />, link: "/Docs/Installation" },
     { name: "Framework Guide", icon: <FaCogs />, link: "#" },
 ]
 
-// Layout
 const layout = [
     { name: "Columns", icon: <FaColumns />, link: "#" },
     { name: "Position", icon: <FaArrowsAlt />, link: "#" },
 ]
 
-// Flex & Grid
 const flexGrid = [
     { name: "Flex", icon: <FaAlignJustify />, link: "#" },
     { name: "Grid", icon: <FaThLarge />, link: "#" },
 ]
 
-// Spacing
 const spacing = [
-    { name: "Padding", icon: <FaExpandArrowsAlt />, link: "#" },
-    { name: "Margin", icon: <FaCompressArrowsAlt />, link: "#" },
+    { name: "Padding", icon: <FaExpand />, link: "#" },
+    { name: "Margin", icon: <FaCompress />, link: "#" },
 ]
 
-// Sizing
 const sizing = [
-    { name: "Width", icon: <FaExpandArrowsAlt />, link: "#" },
-    { name: "Height", icon: <FaCompressArrowsAlt />, link: "#" },
+    { name: "Width", icon: <FaExpand />, link: "#" },
+    { name: "Height", icon: <FaCompress />, link: "#" },
 ]
 
-// Typography
 const typography = [
     { name: "Font Family", icon: <FaFont />, link: "#" },
-    { name: "Font Size", icon: <FaTextHeight />, link: "#" },
+    { name: "Font Size", icon: <RiFontSize2 />, link: "#" },
 ]
 
-// Backgrounds
 const backgrounds = [
     { name: "Backgrounds Image", icon: <FaImage />, link: "#" },
     { name: "Backgrounds Color", icon: <FaFillDrip />, link: "#" },
 ]
 
-// Borders
 const borders = [
     { name: "Borders Radius", icon: <FaBorderStyle />, link: "#" },
     { name: "Borders Color", icon: <FaPalette />, link: "#" },
 ]
 
-// Effects
 const effects = [
     { name: "Box Shadow", icon: <FaRegSquare />, link: "#" },
     { name: "Text Shadow", icon: <FaRegClone />, link: "#" },
 ]
 
-// Filters
 const filters = [
-    { name: "Blur", icon: <FaFilter />, link: "#" },
-    { name: "Brightness", icon: <FaAdjust />, link: "#" },
+    { name: "Blur", icon: <MdBlurOn />, link: "#" },
+    { name: "Brightness", icon: <MdBrightness6 />, link: "#" },
 ]
 
-// Tables
 const tables = [
     { name: "Border Collapse", icon: <FaTable />, link: "#" },
     { name: "Border Spacing", icon: <FaTable />, link: "#" },
 ]
 
-// Transitions & Animation
 const transitions = [
     { name: "Transition Property", icon: <FaMagic />, link: "#" },
-    { name: "Transition Behavior", icon: <FaSyncAlt />, link: "#" },
+    { name: "Transition Behavior", icon: <FaSync />, link: "#" },
 ]
 
-// Transforms
 const transforms = [
     { name: "Backface Visibility", icon: <FaEye />, link: "#" },
     { name: "Perspective", icon: <FaCube />, link: "#" },
 ]
 
-// Interactivity
 const interactivity = [
-    { name: "Accent Color", icon: <FaHandPointer />, link: "#" },
+    { name: "Accent Color", icon: <HiOutlineColorSwatch />, link: "#" },
     { name: "Appearance", icon: <FaRandom />, link: "#" },
 ]
 
-export {
-    mainMenu, getStarted, layout, flexGrid, spacing, sizing,
-    typography, backgrounds, borders, effects, filters,
-    tables, transitions, transforms, interactivity
+export { 
+    mainMenu, getStarted, layout, flexGrid, spacing, sizing, 
+    typography, backgrounds, borders, effects, filters, 
+    tables, transitions, transforms, interactivity 
 }

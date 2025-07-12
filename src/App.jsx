@@ -6,6 +6,7 @@ import Navbar from './components/Nav/Navbar'
 import GetStarted from './pages/GetStart/GetStarted'
 import Footer from './components/Footer/Footer'
 import Intridoction from './pages/GetStartPage/Intridoction'
+import Installation from './pages/Installation/Installation'
 
 function AppContent() {
     const location = useLocation()
@@ -28,6 +29,7 @@ function AppContent() {
                 <Route path='/' element={<Homepage />} />
                 <Route path='/Docs/' element={<GetStarted />}>
                     <Route path='Introduction' element={<Intridoction />} />
+                    <Route path='Installation' element={<Installation /> } />
                 </Route>
             </Routes>
         </>
