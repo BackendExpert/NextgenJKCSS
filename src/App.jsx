@@ -7,6 +7,8 @@ import GetStarted from './pages/GetStart/GetStarted'
 import Footer from './components/Footer/Footer'
 import Intridoction from './pages/GetStartPage/Intridoction'
 import Installation from './pages/Installation/Installation'
+import FrameworkGuide from './pages/FrameworkGuide/FrameworkGuide'
+import Colors from './pages/Colors/Colors'
 
 function AppContent() {
     const location = useLocation()
@@ -30,6 +32,8 @@ function AppContent() {
                 <Route path='/Docs/' element={<GetStarted />}>
                     <Route path='Introduction' element={<Intridoction />} />
                     <Route path='Installation' element={<Installation /> } />
+                    <Route path='FrameworkGuide' element={<FrameworkGuide /> } />
+                    <Route path='Colors' element={<Colors /> } />
                 </Route>
             </Routes>
         </>

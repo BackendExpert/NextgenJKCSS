@@ -1,21 +1,22 @@
-import { 
+import {
     FaBook, FaDownload, FaCogs, FaColumns, FaArrowsAlt, FaAlignJustify, FaThLarge,
     FaExpand, FaCompress, FaFont, FaImage, FaFillDrip, FaBorderStyle, FaPalette,
     FaRegSquare, FaRegClone, FaFilter, FaTable, FaMagic, FaSync, FaEye, FaCube,
     FaHandPointer, FaRandom
 } from "react-icons/fa"
-import { MdTextFields, MdOutlineGradient, MdBlurOn, MdBrightness6 } from "react-icons/md"
+import { MdTextFields, MdOutlineGradient, MdBlurOn, MdBrightness6, MdOutlineInvertColors } from "react-icons/md"
 import { HiOutlineColorSwatch } from "react-icons/hi"
 import { BsTextareaResize } from "react-icons/bs"
 import { RiFontSize2 } from "react-icons/ri"
 
 const mainMenu = [
-    { name: "Documentation", icon: <FaBook />, link: "#" },
+    { name: "Documentation", icon: <FaBook />, link: "/Docs/Introduction" },
 ]
 
 const getStarted = [
     { name: "Installation", icon: <FaDownload />, link: "/Docs/Installation" },
-    { name: "Framework Guide", icon: <FaCogs />, link: "#" },
+    { name: "Framework Guide", icon: <FaCogs />, link: "/Docs/FrameworkGuide" },
+    { name: "Colors", icon: <MdOutlineInvertColors />, link: "/Docs/Colors" },
 ]
 
 const layout = [
@@ -83,8 +84,8 @@ const interactivity = [
     { name: "Appearance", icon: <FaRandom />, link: "#" },
 ]
 
-export { 
-    mainMenu, getStarted, layout, flexGrid, spacing, sizing, 
-    typography, backgrounds, borders, effects, filters, 
-    tables, transitions, transforms, interactivity 
+export {
+    mainMenu, getStarted, layout, flexGrid, spacing, sizing,
+    typography, backgrounds, borders, effects, filters,
+    tables, transitions, transforms, interactivity
 }

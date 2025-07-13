@@ -1,60 +1,123 @@
 import React from 'react'
 
-const Intridoction = () => {
+const Introduction = () => {
     return (
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur, atque iure eum explicabo ipsa sed cum aliquam saepe ut facilis, nam praesentium alias doloribus eius! Commodi ipsum voluptatem ipsa!
-            Cupiditate similique laborum porro officia. Ipsam dolor rerum delectus unde deserunt molestias, exercitationem quos nulla, ipsum commodi atque quam id, quasi beatae! Ad fuga commodi vel illum aliquid aperiam iusto!
-            Omnis quia eaque vero molestiae perferendis? Ab similique, debitis in cupiditate provident amet sequi atque! Possimus quae nulla autem corrupti, deserunt, ullam similique cupiditate maiores aliquid in fuga fugit quia.
-            Harum consectetur ullam similique assumenda. Itaque quos molestiae in eligendi pariatur eius quo cumque! Quis blanditiis veniam voluptatum dolor, quo, odio enim, aut atque repudiandae dignissimos quaerat. Ipsam, voluptatum omnis?
-            Beatae at adipisci ipsam voluptatibus assumenda commodi dignissimos velit ipsum libero totam. Esse in veniam nobis sint labore quia modi ipsam assumenda optio itaque, velit aliquid temporibus quasi ex voluptate?
-            Eligendi ipsa non doloremque eaque a natus saepe odit, repellendus suscipit nisi in corporis at voluptatibus optio quasi unde quaerat alias necessitatibus. Ullam quaerat fuga nisi repudiandae natus, tempora rem?
-            Pariatur temporibus dolores officiis accusantium sequi perspiciatis? Ad qui earum, assumenda corporis reprehenderit unde deserunt veritatis rerum nisi porro placeat provident enim beatae temporibus harum cumque quidem corrupti quam repellat.
-            Autem in cum cupiditate ad, sapiente excepturi dignissimos illum inventore, nam praesentium amet facere, placeat corporis. Aliquam numquam magni, mollitia illum, nihil voluptatibus impedit dicta ullam tempore, deleniti cumque soluta!
-            Hic rem ipsum reprehenderit harum, doloribus dignissimos earum necessitatibus eligendi quod, accusamus distinctio velit iste? Exercitationem labore officiis temporibus asperiores ducimus. At quibusdam a fugiat, optio delectus vel iusto sapiente!
-            Eligendi suscipit officiis placeat quas aspernatur iure asperiores vel saepe aliquam praesentium enim error beatae facilis possimus architecto ea totam, voluptatum odit? Culpa incidunt alias quisquam ipsa vel modi. Assumenda?
-            Consectetur adipisci inventore ipsum laboriosam illo dolore quam eos aliquam dolor consequatur saepe tempore eligendi voluptas, obcaecati nihil magni fugiat dolores eius explicabo temporibus? Consequatur in veniam inventore aut magnam.
-            Sapiente, quaerat est laboriosam, dolorum sed delectus quo quam repellat eligendi unde fugit reprehenderit. Voluptas harum quasi ad saepe distinctio similique, aut inventore provident officiis doloribus ut exercitationem nihil voluptates!
-            Possimus quis itaque obcaecati quae, distinctio quaerat asperiores numquam quos quisquam dolorem optio tempore culpa magni, eum provident assumenda sequi tempora ullam? Omnis quam quibusdam cumque maxime similique quaerat ipsam.
-            Perferendis, explicabo magni alias voluptas numquam quos accusantium quia accusamus similique facere voluptatibus consectetur ex veritatis soluta a, quidem ducimus error aut porro earum praesentium? Cupiditate atque tenetur fuga debitis?
-            Est provident illo delectus, minus optio sapiente sit, unde saepe incidunt, repellendus eligendi cupiditate perspiciatis esse doloribus nostrum veniam? Velit tempore voluptas harum ea et eligendi dolores. Non, culpa consectetur!
-            Rerum quam alias ipsum reprehenderit maxime eum commodi repellendus deserunt totam nemo assumenda ea quas culpa quis dignissimos ad deleniti necessitatibus soluta, vitae eaque quaerat itaque. Vero consectetur cumque laboriosam.
-            Eligendi suscipit, sequi sit odio itaque consequatur ipsa molestias harum cum esse consectetur libero fugit placeat labore. Qui reiciendis tenetur numquam labore adipisci, obcaecati alias, consequuntur ut odio deserunt illum.
-            Culpa ab voluptatem aspernatur mollitia perspiciatis dolorum et dolores suscipit hic deserunt nihil quam nulla deleniti nostrum ipsa, placeat excepturi. Blanditiis esse similique dicta provident consequuntur. Nam natus eligendi quisquam.
-            Suscipit, sapiente reprehenderit quod laborum animi omnis ad, ab dolore veritatis itaque quidem magnam. Eligendi dolor dolore sint optio? Omnis labore quia natus enim atque facilis itaque non sunt quibusdam.
-            Atque explicabo quo aliquam illo tenetur autem distinctio quidem illum quibusdam reiciendis dolores inventore ipsum ducimus, eligendi minus. Ex esse delectus dignissimos voluptatibus culpa dolorem possimus reiciendis amet perspiciatis sit.
-            Quo iure eligendi saepe exercitationem consectetur, numquam officiis aspernatur, amet facere rem, modi earum vero deserunt itaque ratione corporis fugit culpa nisi atque vitae hic quidem molestiae perferendis! Sint, itaque.
-            Nisi nostrum deleniti, fugiat numquam eligendi similique? Mollitia unde doloribus odio nam quibusdam aspernatur, quisquam ipsam. A delectus inventore quae odio illum praesentium incidunt, magnam amet quas, obcaecati, explicabo et!
-            Nulla accusantium aliquid illum rerum, eaque quo laboriosam corporis, id saepe at soluta voluptate sunt fuga reiciendis tempora libero, unde aperiam itaque velit. Officia, mollitia vero provident ut maxime esse.
-            Impedit iste ex fuga beatae quaerat aspernatur asperiores pariatur mollitia animi, recusandae, labore quae aut amet cum iure, maxime a in! Eos, quae quidem. Vel quis harum consequatur nihil aut!
-            Enim facilis suscipit, quis ullam iste beatae distinctio eligendi eum temporibus illum aperiam perferendis quasi nesciunt assumenda impedit obcaecati et voluptatum, harum eveniet delectus? Blanditiis ut quis non dicta quae!
-            Deleniti quae et ea officia. Optio, ipsa! Consequatur molestias dolores nihil, nisi dolorum unde perferendis repellat rerum illo aliquid quia quidem quibusdam alias? Distinctio hic sunt facilis alias tempore itaque?
-            Est incidunt ipsum possimus earum quae? Assumenda at, a omnis voluptatum, nulla voluptatem deleniti, ratione laboriosam facere quas minima explicabo! Id soluta sed maxime fuga cupiditate eos, ipsa assumenda ex!
-            Quaerat doloribus maiores repellat voluptates quas, dolor nobis sit consectetur dolorum error maxime corporis ex laboriosam ratione debitis saepe perspiciatis vitae ipsum at! Eum dolorum, quibusdam incidunt assumenda perferendis quos?
-            Voluptas, excepturi. Officia laboriosam possimus saepe reiciendis, minus, vero cumque repellat voluptatem maxime dignissimos blanditiis suscipit adipisci doloribus rem iusto impedit natus vel aliquam, similique explicabo tempore animi et quas!
-            Consequuntur, nemo neque. Assumenda reiciendis accusamus culpa, architecto officiis non praesentium quisquam quia, facere explicabo laudantium sapiente deleniti pariatur nobis aliquam mollitia iste. Tempore similique sed possimus perspiciatis sit ullam!
-            Eveniet tenetur quidem inventore obcaecati, minima dolores possimus delectus incidunt dolorum, non doloremque aspernatur ducimus. Reiciendis veniam est saepe vel! Sed totam blanditiis atque aperiam accusantium excepturi beatae fuga a!
-            Iste incidunt ipsum eum explicabo ipsam? Doloribus fugiat quisquam inventore quibusdam, placeat natus perferendis iusto laudantium magnam voluptates incidunt provident error in mollitia a et iste soluta earum repellat! Laborum.
-            Reprehenderit nemo iure dicta eaque est molestiae, iusto sunt vero deleniti alias omnis officia. Exercitationem placeat cupiditate culpa rerum, assumenda sapiente eveniet ut nihil doloribus necessitatibus magnam nisi? Quos, itaque.
-            Voluptatum suscipit, ipsa nemo, iure temporibus quis eum impedit neque debitis fugit pariatur minima sapiente eveniet. Nihil vitae, ducimus natus cum exercitationem sed voluptas mollitia iste, ipsum nulla sit expedita?
-            Adipisci, mollitia et! Natus voluptas excepturi accusamus aliquam eaque ab aliquid doloribus, ex nemo eius soluta nostrum velit aspernatur eveniet, laudantium amet mollitia in itaque qui. Ipsa beatae mollitia cumque.
-            Facere molestias, impedit iste cupiditate porro itaque? Ea, omnis fuga. Quia veritatis aut labore officia, iure nemo possimus magni facere cum illum similique non sed porro provident praesentium sapiente reprehenderit?
-            Ex sint officiis unde libero ipsa error est accusantium voluptatum sit numquam sed ea, possimus fuga eligendi provident facere rerum voluptatem assumenda illum placeat impedit fugiat totam explicabo? Consequuntur, accusantium!
-            Quo cupiditate eligendi dolorum quis, quasi cumque accusantium optio odit, molestias natus animi nisi? Placeat, est. Ipsa atque sequi voluptatum dolore minima? Necessitatibus quasi minus ea delectus maiores ab sint.
-            Quasi, dolorum. Corporis ducimus fugit tempora perferendis repellat cumque ab? Repudiandae nobis sunt, officiis sapiente distinctio deleniti reprehenderit minima mollitia ducimus doloremque culpa aliquid exercitationem eaque numquam dolorum aperiam vitae.
-            Sint quia unde, nostrum, eum voluptates eaque praesentium veniam sequi illum natus earum autem officiis molestiae modi aut nihil consequatur inventore, fugit cum dolore ex. Architecto sapiente qui ut voluptatibus?
-            Vel facilis unde magnam laudantium fugit molestiae dolorem voluptate molestias blanditiis neque corporis nesciunt officiis, repudiandae quaerat illo quasi esse. Corporis distinctio nulla reiciendis consectetur cumque autem adipisci numquam porro.
-            Laudantium nesciunt dolorem pariatur quis nostrum ea ut eaque accusamus, aliquid alias qui architecto nihil sapiente! Laudantium obcaecati quisquam delectus officiis eum sed illo vel repellendus fugit. Ab, aperiam debitis?
-            A sit facere dolorem est id harum ab incidunt dolores deserunt blanditiis, natus aut ex itaque ipsum perspiciatis maxime doloremque distinctio cumque similique. Vero laboriosam ut aspernatur velit voluptates eos.
-            Voluptates tempore praesentium natus libero fuga consequatur quia sit veniam nesciunt blanditiis enim placeat saepe hic, at ad in qui nobis dolorum explicabo consequuntur soluta alias! Distinctio odio enim suscipit?
-            Vitae nemo eius alias repellendus ex praesentium velit expedita minus dolores neque id laudantium facilis tempore nam porro, ipsum aliquam accusantium placeat earum. Itaque dignissimos, veniam voluptas velit corrupti obcaecati.
-            Temporibus beatae aperiam voluptatem corrupti eos et sit adipisci dolore culpa praesentium, fugiat architecto. Voluptate doloremque, deserunt eligendi perferendis quis mollitia impedit hic soluta voluptas placeat et earum rem unde.
-            Expedita, quo facilis asperiores laudantium quae consequuntur, numquam dolores esse totam harum nobis. Officia quia cumque impedit quis quaerat numquam dicta at est culpa consequuntur, dolores pariatur distinctio voluptas itaque?
-            Deserunt, quibusdam? Sunt, facilis beatae recusandae fuga sapiente vero quis maiores fugit obcaecati reprehenderit dolore libero nulla soluta iure quasi minus? Nesciunt id iure dolore fuga beatae facere sit magnam!
-            Laborum aspernatur quis delectus. Iste magnam beatae accusamus fugiat quidem? Dolorem exercitationem voluptate illum blanditiis harum debitis suscipit reiciendis atque sequi mollitia, alias officia, voluptates assumenda? Veritatis eveniet corrupti doloribus.
-            Corrupti nemo necessitatibus ducimus. Cumque adipisci inventore quam, dolores voluptas blanditiis numquam deserunt facere velit suscipit. Inventore voluptas doloremque laboriosam facilis molestias nihil, ipsa tenetur accusamus praesentium, id, distinctio commodi!
-        </div>
+        <section className="w-full px-6 py-20 bg-white">
+            <div className="max-w-7xl mx-auto">
+                {/* Main Heading */}
+                <h1 className="text-4xl font-extrabold tracking-[6px] uppercase text-gray-800 mb-8">
+                    Introduction
+                </h1>
+
+                {/* Intro Text */}
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Welcome to <span className="font-bold text-black">JKCSS</span> — the first regionally crafted CSS framework
+                    built from South Asia for the world. This is not just another utility kit; this is a statement that performance,
+                    clarity, and adaptability are not optional. They are **essential**.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    With JKCSS, you’re not bound by bloated design systems or legacy constraints. You get a lightweight,
+                    modern toolkit that puts you in control of your markup — so you spend less time wrestling with overrides
+                    and more time building features that matter.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    This framework is your answer to projects that demand speed, modularity, and the confidence to scale
+                    without the weight of unused code. It’s open, flexible, and ready for the hardest challenges you can throw at it.
+                </p>
+
+                {/* Feature Cards */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
+                    {/* Card 1 */}
+                    <div className="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <div className="mb-4">
+                            <svg className="w-10 h-10 text-indigo-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 className="text-xl font-semibold mb-2">Lightning Fast</h3>
+                        <p className="text-gray-600">
+                            Designed for speed — ship smaller CSS bundles and load pages instantly, even on low-bandwidth connections.
+                        </p>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div className="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <div className="mb-4">
+                            <svg className="w-10 h-10 text-indigo-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zm0 7.5L2 7v10l10 5 10-5V7l-10 2.5z" />
+                            </svg>
+                        </div>
+                        <h3 className="text-xl font-semibold mb-2">Modular Foundation</h3>
+                        <p className="text-gray-600">
+                            Use just the pieces you need. Keep your codebase lean, readable, and always under your control.
+                        </p>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div className="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <div className="mb-4">
+                            <svg className="w-10 h-10 text-indigo-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                <path d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <h3 className="text-xl font-semibold mb-2">Easy Adoption</h3>
+                        <p className="text-gray-600">
+                            Familiar patterns, intuitive class names — start small, grow big, and onboard your team in hours, not weeks.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Core Principles */}
+                <h2 className="text-2xl font-bold text-gray-800 mb-4 mt-10">Our Core Principles</h2>
+                <ul className="space-y-4 mb-12">
+                    <li className="flex items-start">
+                        <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span className="text-gray-700 text-lg">
+                            <strong>Performance-First:</strong> Every class, every rule, every build step exists to serve raw speed.
+                        </span>
+                    </li>
+                    <li className="flex items-start">
+                        <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span className="text-gray-700 text-lg">
+                            <strong>Minimal, Never Bare:</strong> Just enough to be powerful — no fluff, no bloat.
+                        </span>
+                    </li>
+                    <li className="flex items-start">
+                        <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span className="text-gray-700 text-lg">
+                            <strong>Community-Led:</strong> Built with input from real builders, for real problems.
+                        </span>
+                    </li>
+                    <li className="flex items-start">
+                        <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span className="text-gray-700 text-lg">
+                            <strong>Regionally Proud, Globally Relevant:</strong> JKCSS is built here — but made for the world.
+                        </span>
+                    </li>
+                </ul>
+
+                {/* Closing CTA */}
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">Join the Movement</h2>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    JKCSS is not just another framework to compare version numbers. It’s a commitment to quality, a push
+                    against wasteful complexity, and a signal that South Asian developers can lead at the highest standard.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                    Build your next big idea on top of something lean, robust, and easy to master.
+                    Let your work inspire the next developer to aim higher. JKCSS is yours — take it, shape it,
+                    push it forward.
+                </p>
+            </div>
+        </section>
     )
 }
 
-export default Intridoction
+export default Introduction
