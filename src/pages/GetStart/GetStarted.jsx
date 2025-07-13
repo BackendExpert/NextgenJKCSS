@@ -12,7 +12,7 @@ const GetStarted = () => {
             </aside>
 
             {/* Main */}
-            <div className="flex flex-col flex-1 h-full">
+            <div className="flex flex-col flex-1 min-h-screen">
                 <main className="flex flex-col flex-1 overflow-y-auto">
                     <div className="flex-grow p-6 bg-gradient-to-tr from-gray-50 to-white scrollbar-thin scrollbar-thumb-emerald-400 hover:scrollbar-thumb-emerald-600 transition-all">
                         <Outlet />

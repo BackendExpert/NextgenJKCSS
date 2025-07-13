@@ -2,7 +2,7 @@ import React from 'react'
 
 const Introduction = () => {
     return (
-        <section className="w-full px-6 py-20 bg-white">
+        <section className="w-full px-6 pt-8 pb-20 bg-white">
             <div className="max-w-7xl mx-auto">
                 {/* Main Heading */}
                 <h1 className="text-4xl font-extrabold tracking-[6px] uppercase text-gray-800 mb-8">
