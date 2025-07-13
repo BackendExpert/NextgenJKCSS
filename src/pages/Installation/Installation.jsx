@@ -1,5 +1,6 @@
 import React from 'react'
 import BaseFile from '../../components/BaseFiles/BaseFile'
+import UseJKCSS from '../../components/BaseFiles/UseJKCSS'
 
 const Installation = () => {
     return (
@@ -11,7 +12,7 @@ const Installation = () => {
                 and works out of the box with minimal setup, so you can focus on building clean, fast, and scalable user interfaces.
             </p>
 
-            <h1 className="text-xl font-semibold text-purple-500 mt-4">
+            <h1 className="text-3xl font-semibold text-purple-500 mt-4">
                 Use CDN (Content Delivery Network or Content Distribution Network)
             </h1>
 
@@ -56,6 +57,10 @@ const Installation = () => {
 
             <div className="mt-8">
                 <BaseFile />
+            </div>
+
+            <div className="mt-8">
+                <UseJKCSS />
             </div>
 
         </div>

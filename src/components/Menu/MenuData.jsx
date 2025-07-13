@@ -8,6 +8,7 @@ import { MdTextFields, MdOutlineGradient, MdBlurOn, MdBrightness6, MdOutlineInve
 import { HiOutlineColorSwatch } from "react-icons/hi"
 import { BsTextareaResize } from "react-icons/bs"
 import { RiFontSize2 } from "react-icons/ri"
+import { FaNpm } from "react-icons/fa6"
 
 const mainMenu = [
     { name: "Documentation", icon: <FaBook />, link: "/Docs/Introduction" },
@@ -15,6 +16,7 @@ const mainMenu = [
 
 const getStarted = [
     { name: "Installation", icon: <FaDownload />, link: "/Docs/Installation" },
+    { name: "NPM using", icon: <FaNpm />, link: "/Docs/NPM" },
     { name: "Framework Guide", icon: <FaCogs />, link: "/Docs/FrameworkGuide" },
     { name: "Colors", icon: <MdOutlineInvertColors />, link: "/Docs/Colors" },
 ]

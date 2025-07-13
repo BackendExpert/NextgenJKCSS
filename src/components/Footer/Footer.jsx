@@ -3,12 +3,12 @@ import { Github, Facebook, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="text-gray-600 px-8 md:px-20 py-8">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <footer className="px-8 md:px-20 py-12 bg-white text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
                 {/* Column 1: Brand */}
                 <div>
-                    <h2 className="text-xl font-bold text-gray-700 mb-4">JKCSS</h2>
-                    <p className="text-sm">
+                    <h2 className="text-2xl font-bold text-purple-600 mb-4">JKCSS</h2>
+                    <p className="text-sm leading-relaxed text-gray-600">
                         South Asia’s first next-gen CSS framework.
                         Build faster, dream harder.
                         Never go back.
@@ -17,40 +17,40 @@ const Footer = () => {
 
                 {/* Column 2: Navigation */}
                 <div>
-                    <h3 className="text-lg font-semibold text-white mb-4">Navigation</h3>
+                    <h3 className="text-lg font-semibold text-purple-700 mb-4">Navigation</h3>
                     <ul className="space-y-2">
-                        <li><a href="#hero" className="hover:text-yellow-400 transition">Home</a></li>
-                        <li><a href="#docs" className="hover:text-yellow-400 transition">Docs</a></li>
-                        <li><a href="#showcase" className="hover:text-yellow-400 transition">Showcase</a></li>
-                        <li><a href="#community" className="hover:text-yellow-400 transition">Community</a></li>
+                        <li><a href="#hero" className="hover:text-purple-500 transition-colors duration-300">Home</a></li>
+                        <li><a href="#docs" className="hover:text-purple-500 transition-colors duration-300">Docs</a></li>
+                        <li><a href="#showcase" className="hover:text-purple-500 transition-colors duration-300">Showcase</a></li>
+                        <li><a href="#community" className="hover:text-purple-500 transition-colors duration-300">Community</a></li>
                     </ul>
                 </div>
 
                 {/* Column 3: Resources */}
                 <div>
-                    <h3 className="text-lg font-semibold text-white mb-4">Resources</h3>
+                    <h3 className="text-lg font-semibold text-purple-700 mb-4">Resources</h3>
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:text-yellow-400 transition">GitHub</a></li>
-                        <li><a href="#" className="hover:text-yellow-400 transition">Discord</a></li>
-                        <li><a href="#" className="hover:text-yellow-400 transition">Blog</a></li>
-                        <li><a href="#" className="hover:text-yellow-400 transition">Support</a></li>
+                        <li><a href="#" className="hover:text-purple-500 transition-colors duration-300">GitHub</a></li>
+                        <li><a href="#" className="hover:text-purple-500 transition-colors duration-300">Discord</a></li>
+                        <li><a href="#" className="hover:text-purple-500 transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" className="hover:text-purple-500 transition-colors duration-300">Support</a></li>
                     </ul>
                 </div>
 
                 {/* Column 4: Social */}
                 <div>
-                    <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
-                    <div className="flex space-x-4">
-                        <a href="#" className="hover:text-yellow-400 transition">
+                    <h3 className="text-lg font-semibold text-purple-700 mb-4">Connect</h3>
+                    <div className="flex space-x-5">
+                        <a href="#" className="hover:text-purple-500 transform hover:scale-110 transition duration-300">
                             <Github className="w-6 h-6" />
                         </a>
-                        <a href="#" className="hover:text-yellow-400 transition">
+                        <a href="#" className="hover:text-purple-500 transform hover:scale-110 transition duration-300">
                             <Facebook className="w-6 h-6" />
                         </a>
-                        <a href="#" className="hover:text-yellow-400 transition">
+                        <a href="#" className="hover:text-purple-500 transform hover:scale-110 transition duration-300">
                             <Linkedin className="w-6 h-6" />
                         </a>
-                        <a href="#" className="hover:text-yellow-400 transition">
+                        <a href="#" className="hover:text-purple-500 transform hover:scale-110 transition duration-300">
                             <Twitter className="w-6 h-6" />
                         </a>
                     </div>
@@ -58,10 +58,16 @@ const Footer = () => {
             </div>
 
             {/* Bottom */}
-            <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
-                <footer class="text-center text-gray-500 text-sm py-4">
-                    © {new Date().getFullYear()} JKCSS — Engineered and maintained by <a href="https://www.blackalphalabs.com/" target="_blank"><span class="font-semibold">BlackAlphaLabs</span>.</a>
-                </footer>
+            <div className="mt-12 border-t border-gray-300 pt-6 text-center text-sm text-gray-500">
+                © {new Date().getFullYear()} JKCSS — Engineered & maintained by
+                <a
+                    href="https://www.blackalphalabs.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-1 font-semibold text-purple-600 hover:text-purple-800 transition-colors duration-300"
+                >
+                    BlackAlphaLabs
+                </a>
             </div>
         </footer>
     );
