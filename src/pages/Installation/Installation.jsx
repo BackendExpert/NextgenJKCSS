@@ -1,4 +1,5 @@
 import React from 'react'
+import BaseFile from '../../components/BaseFiles/BaseFile'
 
 const Installation = () => {
     return (
@@ -51,6 +52,10 @@ const Installation = () => {
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+            <div className="mt-8">
+                <BaseFile />
             </div>
 
         </div>
