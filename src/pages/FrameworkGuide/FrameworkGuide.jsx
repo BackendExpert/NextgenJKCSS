@@ -91,6 +91,17 @@ const FrameworkGuide = () => {
                 </div>
             </div>
 
+            {/* ----------------------- */}
+
+            <div className="mt-8">
+                <h1 className="text-xl font-semibold text-purple-500 mt-4">Lastly </h1>
+                <p className="mt-4 text-base text-gray-600 leading-relaxed">The Project runs on <FileName FName={'http://localhost:5173'}/> (The Port will be change if you run any other projects) </p>
+
+                <div className="mt-4">
+                    <Npmcode npmcode={`npm run dev`} />
+                </div>
+            </div>
+
         </div>
     )
 }
