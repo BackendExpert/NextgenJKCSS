@@ -33,7 +33,7 @@ function AppContent() {
                 <Route path='/Docs/' element={<GetStarted />}>
                     <Route path='Introduction' element={<Intridoction />} />
                     <Route path='Installation' element={<Installation /> } />
-                    <Route path='FrameworkGuide' element={<FrameworkGuide /> } />
+                    <Route path='ViteIntegration' element={<FrameworkGuide /> } />
                     <Route path='Colors' element={<Colors /> } />
                     <Route path='NPM' element={<NPM /> } />
                 </Route>
