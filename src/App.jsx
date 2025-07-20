@@ -10,6 +10,7 @@ import Installation from './pages/Installation/Installation'
 import FrameworkGuide from './pages/FrameworkGuide/FrameworkGuide'
 import Colors from './pages/Colors/Colors'
 import NPM from './pages/NPM/NPM'
+import ErrorPage from './components/Errors/ErrorPage'
 
 function AppContent() {
     const location = useLocation()
@@ -31,10 +32,11 @@ function AppContent() {
             <Routes>
                 <Route path='/' element={<Homepage />} />
                 <Route path='/Docs/' element={<GetStarted />}>
+                    <Route path='*' element={<ErrorPage />} />
                     <Route path='Introduction' element={<Intridoction />} />
                     <Route path='Installation' element={<Installation /> } />
                     <Route path='ViteIntegration' element={<FrameworkGuide /> } />
-                    <Route path='Colors' element={<Colors /> } />
+                    {/* <Route path='Colors' element={<Colors /> } /> */}
                     <Route path='NPM' element={<NPM /> } />
                 </Route>
             </Routes>
