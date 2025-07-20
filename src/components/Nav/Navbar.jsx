@@ -9,7 +9,7 @@ const Navbar = () => {
             <a href="/" className="flex items-center space-x-3">
                 <img src={jkcsslogo} alt="JKCSS Logo" className="h-8 w-auto" />
                 <h1 className="text-xl font-extrabold text-gray-600 select-none">
-                    JKCSS <span className="font-normal text-gray-500">Framework</span> <span>v7</span>
+                    JKCSS <span className="font-normal text-gray-500">Framework</span> <span>v7.0.0 beta</span>
                 </h1>
             </a>
 
